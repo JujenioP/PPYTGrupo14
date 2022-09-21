@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import Home from './Home'
 import Team from './Team';
 import {Route, Routes} from 'react-router-dom'
@@ -10,7 +10,6 @@ function App() {
         <Route path='/Team' element={<Team/>}/>
       </Routes>
     </div>
-=======
 import Home from "./component/Home";
 import Game from "./component/Game";
 import Team from "./component/Team";
