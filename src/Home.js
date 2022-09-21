@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 function Home() {
   return (
     <div className="container">
@@ -5,10 +6,10 @@ function Home() {
         <img/>
         <div>
             <button>
-                JUGAR
+                <Link to=''>JUGAR</Link>
             </button>
             <button>
-                DESARROLLADORES
+                <Link to='/Team'>DESARROLLADORES</Link>
             </button>
         </div>
     </div>
