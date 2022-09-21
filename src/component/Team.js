@@ -1,4 +1,6 @@
-function Team() {
+import { Link } from "react-router-dom";
+
+export default function Team() {
     return (
         <div className="container">
             <h1>Equipo de Trabajo</h1>
@@ -24,8 +26,7 @@ function Team() {
                     <h3>Matias Alan Cruz Aruzamen</h3>
                 </div>
             </div>
-            <button>Volver</button>
+            <Link to={'/'} className="btn-principal ">Inicio</Link>
         </div>
     )
 }
-export default Team;
