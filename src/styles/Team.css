@@ -10,11 +10,6 @@
 .container h1{
     text-align: center;
 }
-/*.container{
-    align-items: center;
-    justify-content: center;
-    
-}*/
 .container a{
     display: flex;
     text-decoration: none;
