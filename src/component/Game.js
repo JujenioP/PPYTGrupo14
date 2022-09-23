@@ -17,7 +17,7 @@ export default function Game() {
         </div>
 
         <div className="puntos">
-          <h1>Has gando</h1>   
+          <h1>Has ganado</h1>   
         </div>
 
         <div className="PC">
@@ -32,7 +32,7 @@ export default function Game() {
       <div className="boton">
         <button>Jugar</button>
         <Link to={"/Game"} className="btn btn-primary">
-          Reiniar
+          Reiniciar
         </Link>
         <Link to={"/"} className="btn-principal ">
           Inicio
