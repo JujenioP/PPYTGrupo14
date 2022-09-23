@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import '../styles/Team.css'
+
+import '../styles/Button.css'
+
 export default function Team() {
     return (
         <div className="container">
@@ -7,26 +10,27 @@ export default function Team() {
             <div>
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
-                    <h3>Maximiliano Abel Mamani</h3>
+                    <a  target='_blank' rel="noreferrer" href="https://github.com/MaxAbelMamani"> Maximiliano Abel Mamani </a>
                 </div>
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
-                    <h3>Matias Gabriel Ortega</h3>
+                    <a  target='_blank' rel="noreferrer" href="https://github.com/MatiasGrrrOrtega"> Matias Gabriel Ortega </a>
                 </div>
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
-                    <h3>Maximiliano L. Bustamante</h3>
+                    <a  target='_blank' rel="noreferrer" href="https://github.com/MaxLeonel"> Bustamante Maximiliano L.</a>
                 </div>
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
-                    <h3>Agustina M. A. Morales</h3>
+                    <a  target='_blank' rel="noreferrer" href="https://github.com/Agmor03"> Agustina M. A. Morales </a>  
                 </div>
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
-                    <h3>Matias Alan Cruz Aruzamen</h3>
+                    <a  target='_blank' rel="noreferrer" href="https://github.com/Agmor03"> Matias Alan Cruz Aruzamen</a> 
+
                 </div>
             </div>
-            <Link to={'/'} className="btn-principal ">Inicio</Link>
+            <Link to={'/'} className="btn-principal">Inicio</Link>
         </div>
     )
 }

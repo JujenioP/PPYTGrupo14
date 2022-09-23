@@ -6,16 +6,19 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+
 h1{
-    
     text-align: center;
 }
+
 .Inicio img{
     display: block;
     width: 250px;
     height: 250px;
     margin: 5em;
 }
+
 .Inicio a{
     display: flex;
     text-decoration: none;
@@ -27,6 +30,6 @@ h1{
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgba(127, 255, 212, 0.301);
+ 
 }
+
