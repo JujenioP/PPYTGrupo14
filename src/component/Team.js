@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import '../styles/Team.css'
+
 import '../styles/Button.css'
+
 export default function Team() {
     return (
         <div className="container">
@@ -25,6 +27,7 @@ export default function Team() {
                 <div className="NyF">
                     <img src="../images/Matias_Ortega.jpg" alt="..."/>
                     <a  target='_blank' rel="noreferrer" href="https://github.com/Agmor03"> Matias Alan Cruz Aruzamen</a> 
+
                 </div>
             </div>
             <Link to={'/'} className="btn-principal">Inicio</Link>
