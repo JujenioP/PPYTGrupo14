@@ -1,0 +1,48 @@
+
+.container h3{
+    text-align: center;
+    font-size: 3em;
+}
+
+.Player{
+    border: 5px solid black;
+    display: inline-block;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    max-width: 300px;
+    max-height: 400px;
+    margin-left: 50px;
+}
+
+.Player img{
+    width: 100%;
+}
+
+.PC{
+    border: 5px solid black;
+    display: inline-block;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    max-width: 300px;
+    max-height: 400px;
+    margin-left: 615px;
+}
+
+.PC img{
+    width: 100%;
+}
+
+.puntos{
+    position: absolute;
+    margin-left:  17%;
+    border : 5px solid black;
+    left: 360px;
+    top: 50%;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

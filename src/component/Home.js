@@ -1,18 +1,16 @@
 import { Link } from "react-router-dom";
 import '../styles/Home.css'
+import '../styles/Button.css'
 export default function Home() {
-    return (
-        <div className="container-principal">
-            <h1 className="title-page">PIEDRA, PAPEL O TIJERA</h1>
-            <img src="#" alt="imagen-juego"/>
-            <div className="buttons-home">
-            </div>
-            <button>
-                <Link to={'/Game'} className="btn-principal "> Jugar </Link>
-            </button>
-            <button>
-                <Link to={'/Team'} className="btn-principal "> Desarrolladores </Link>
-            </button>
-        </div>
-    )
+  return (
+    <div className="Inicio">
+      <br></br>
+      <br></br>
+      <h1>PIEDRA, PAPEL O TIJERA</h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/6688/6688560.png" alt="manos"/>
+      <Link to={'/Game'} className="btn-principal"> Jugar </Link>
+      <br></br>
+      <Link to={'/Team'} className="btn-principal"> Desarrolladores </Link>
+    </div>
+  )
 }

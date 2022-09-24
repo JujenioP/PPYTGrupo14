@@ -1,49 +1,43 @@
 import { Link } from "react-router-dom";
-import '../styles/Home.css'
+import '../styles/Game.css'
+import '../styles/Button.css'	
+
 export default function Game() {
   return (
-    <div className="container-principal">
-        <h1 className="title-page">EMPIEZA A JUGAR</h1>
-        <div className="container-players result">
-            <div className="jugador">
-                {/* Este div contendra las imagenes a azar del jugador*/}
-                <div className="imagen-objeto">
-                    <img src="#"/>
-                </div>
-                {/* Este div contendra las puntos del jugador*/}
-                <div className="puntos">
-                    Puntos: 
-                </div>
-            </div>
-            {/* Este div mostrara quien gano o si hay empate*/}
-            <div className="result">
+    <div className="container">
+        <h3>Pieda Papel o tijera</h3>
+      <div>
+        <div className="Player">
+          <div className="imagen">
+            <img src="../images/papel1.png" alt="manos"></img>
+          </div>
+          <div>
+            <h1>puntos</h1>
+          </div>
+        </div>
 
-            </div>
-            {/* Este div contendra las imagenes a azar del jugador*/}
-            <div className="jugador">
-                {/* Este div contendra las imagenes a azar del jugador*/}
-                <div className="imagen-objeto">
-                    <img src="#"/>
-                </div>
-                {/* Este div contendra las puntos del jugador*/}
-                <div className="puntos">
-                    Puntos: 
-                </div>
-            </div>
+        <div className="puntos">
+          <h1>Has ganado</h1>   
         </div>
-        <div className="buttons-game">
-            <button className="button-jugar">
-                Jugar
-            </button>
-            <button className="button-restar">
-                ReIniciar
-            </button>
-            <button>
-                <Link to={"/"} className="btn-principal ">
-                Inicio
-                </Link> 
-            </button>
+
+        <div className="PC">
+          <div className="imagen">
+            <img src="../images/papel1.png" alt="manos"></img>
+          </div>
+          <div>
+            <h1>puntos</h1>
+          </div>
         </div>
+      </div>
+      <div className="boton">
+        <button>Jugar</button>
+        <Link to={"/Game"} className="btn btn-primary">
+          Reiniciar
+        </Link>
+        <Link to={"/"} className="btn-principal ">
+          Inicio
+        </Link>
+      </div>
     </div>
   );
 }
