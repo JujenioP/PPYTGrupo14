@@ -5,39 +5,37 @@ import '../styles/Button.css'
 export default function Game() {
   return (
     <div className="container">
-        <h3>Pieda Papel o tijera</h3>
-      <div>
-        <div className="Player">
-          <div className="imagen">
-            <img src="../images/papel1.png" alt="manos"></img>
-          </div>
-          <div>
-            <h1>puntos</h1>
-          </div>
+        <h1 className="">Pieda Papel o tijera</h1>
+        <div className="jugadores">
+            <div className="player">
+                <div className="imagen">
+                    <img src="../images/papel1.png" alt="manos"></img>
+                </div>
+                <div className="punto">
+                    <p>Puntos: 0</p>
+                </div>
+            </div>
+            <div className="result">
+                Resultado
+            </div>
+            <div className="maquina">
+                <div className="imagen">
+                    <img src="../images/papel1.png" alt="manos"></img>
+                </div>
+                <div className="punto">
+                    <p>Puntos: 0</p>
+                </div>
+            </div>
         </div>
-
-        <div className="puntos">
-          <h1>Has ganado</h1>   
+        <div className="botones">
+          <button>Jugar</button>
+          <Link to={"#"} className="btn">
+            Reiniciar
+          </Link>
+          <Link to={"/"} className="btn">
+            Inicio
+          </Link>
         </div>
-
-        <div className="PC">
-          <div className="imagen">
-            <img src="../images/papel1.png" alt="manos"></img>
-          </div>
-          <div>
-            <h1>puntos</h1>
-          </div>
-        </div>
-      </div>
-      <div className="boton">
-        <button>Jugar</button>
-        <Link to={"/Game"} className="btn btn-primary">
-          Reiniciar
-        </Link>
-        <Link to={"/"} className="btn-principal ">
-          Inicio
-        </Link>
-      </div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Home from "./component/Home";
 import Game from "./component/Game";
 import Team from "./component/Team";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -8,8 +9,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/Game" element={ <Game/> } />
-        <Route path="/Team" element={ <Team/>} />
+        <Route path="/Team" element={ <Team/> } />
+        <Route path="/Game" element={ <Game/>} />
       </Routes>
     </BrowserRouter>
   );
