@@ -94,7 +94,7 @@ export default function Game() {
 
   return (
     <div className="container">
-        <h1>Pieda Papel o tijera</h1>
+        <h1>Piedra Papel o tijera</h1>
         <div className="jugadores">
             <Jugador 
                 titulo="Jugador 1"
@@ -112,8 +112,8 @@ export default function Game() {
             />
         </div>
         <div className="botones">
-          <button onClick={Play}>Jugar</button>
-          <button onClick={RePlay}>Reiniciar</button>
+          <Link onClick={Play} className="btn">Jugar</Link>
+          <Link onClick={RePlay} className="btn">Reiniciar</Link>
           <Link to={"/"} className="btn">
             Inicio
           </Link>
