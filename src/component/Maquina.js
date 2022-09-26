@@ -11,7 +11,9 @@ function Maquina({titulo, imagen, puntaje}) {
             <p>Puntos: {puntaje}</p>
         </div>
     </div>
+    // Bloques de titulo, imagen y puntaje del jugador 2
   )
 }
 
 export default Maquina
+// Exporte bajo valor "Maquina"
